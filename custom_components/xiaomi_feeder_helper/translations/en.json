@@ -1,1 +1,14 @@
-
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Xiaomi Feeder Helper",
+        "description": "Found these Xiaomi pet feeder(s) via the xiaomi_home integration: {feeders}. Click Submit to add a \"Feed now\" button for each one."
+      }
+    },
+    "abort": {
+      "already_configured": "Already configured",
+      "no_feeder_found": "No Xiaomi pet feeder was found via the xiaomi_home integration. Make sure xiaomi_home is set up and your feeder has already been added there, then try again."
+    }
+  }
+}
