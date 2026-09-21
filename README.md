@@ -10,7 +10,7 @@ calling any other MIoT action by `siid`/`aiid`.
 No manual `did`/`siid`/`aiid` typing needed for the button: add the
 integration from the UI and it auto-detects your feeder.
 
-<img width="980" height="1130" alt="d982b5973a146e07c0e0d860ebf31f3f" src="https://github.com/user-attachments/assets/eebe40b2-ef4f-41b2-9d87-a0b43f29bf0b" />
+<img width="315" height="380" alt="d982b5973a146e07c0e0d860ebf31f3f" src="https://github.com/user-attachments/assets/eebe40b2-ef4f-41b2-9d87-a0b43f29bf0b" />
 
 ## Why this exists
 
