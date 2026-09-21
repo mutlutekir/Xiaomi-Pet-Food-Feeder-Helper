@@ -1,4 +1,4 @@
-# Xiaomi Feeder Helper
+# Xiaomi Pet Food Feeder Helper
 
 A standalone Home Assistant integration that finds Xiaomi pet feeders
 already set up through the official
