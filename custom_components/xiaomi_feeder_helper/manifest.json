@@ -1,1 +1,12 @@
-
+{
+  "domain": "xiaomi_feeder_helper",
+  "name": "Xiaomi Feeder Helper",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/YOUR_USERNAME/xiaomi-feeder-helper",
+  "issue_tracker": "https://github.com/YOUR_USERNAME/xiaomi-feeder-helper/issues",
+  "after_dependencies": ["xiaomi_home"],
+  "requirements": [],
+  "codeowners": ["@Mutlu Tekir"],
+  "iot_class": "cloud_push"
+}
