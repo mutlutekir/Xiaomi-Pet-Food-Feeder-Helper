@@ -1,0 +1,40 @@
+call_action:
+  name: Call MIoT action
+  description: >-
+    Calls any MIoT action by siid/aiid on a device that the xiaomi_home
+    integration already manages.
+  fields:
+    did:
+      name: Device ID
+      description: The Xiaomi device ID (did) of the target device.
+      required: true
+      example: "123456789"
+      selector:
+        text:
+    siid:
+      name: Service ID
+      description: MIoT service ID (siid) of the action.
+      required: true
+      example: 2
+      selector:
+        number:
+          min: 1
+          max: 255
+          mode: box
+    aiid:
+      name: Action ID
+      description: MIoT action ID (aiid) of the action.
+      required: true
+      example: 1
+      selector:
+        number:
+          min: 1
+          max: 255
+          mode: box
+    params:
+      name: Parameters
+      description: Optional list of parameters passed to the action.
+      required: false
+      example: "[1]"
+      selector:
+        object:
