@@ -32,7 +32,7 @@ from homeassistant.helpers import config_validation as cv
 from .const import DOMAIN, XIAOMI_HOME_DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
-
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 PLATFORMS = ["button"]
 
 SERVICE_CALL_ACTION = "call_action"
